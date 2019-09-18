@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reporte</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+       h1,h2{text-align: center;}
+       .cont{
+           display: grid;
+           grid-template-columns: 1fr 2fr;
+           grid-gap: 10px;
+       }
+       .cont .partes{
+           border: solid;
+           padding: 10px;
+           }
+           .cont div label{
+               display: block;
+               margin-bottom: 10px;
+           }
+        .partes {
+            display: flex;
+            justify-content: space-between;    
+        }
+    </style>
+</head>
+<body>
+    <h1>Comicion Federal de Electricidad </h1>
+    <h2>Desglose de facturacion: '#Nombre tarifa'</h2>
+    <div class="cont">
+        <div class="partes">
+            <div class="Concepto">
+                    <label>Dias de Periodo: </label>
+                    <label>Consumo: </label>
+                    <label>Demanda</label>
+                    <label>Reactivos</label>
+
+                    <label>Factor de Potencia</label>
+            </div>
+            <div class="resultado">
+                    <label>'var aqui' Dias</label>
+                    <label>'' KilowattHoras</label>
+                    <label>'' Kilowatts</label>
+                    <label>'' Kvarh</label>
+
+                    <label>#poner aqui</label>
+            </div>  
+        </div>
+
+        <div class="partes">
+            <div class="Concepto">
+                <label>TRANSMISION</label>
+                <label>DISTRIBUCION</label>
+                <label>CENACE</label>
+                <label>SUMINISTRO</label>
+                <label>SCNMEM</label>
+                <label>ENERGIA</label>
+                <label>CAPACIDAD</label>
+
+                <label>Importe de facturacion Basico</label>
+                <label>Cargo por Medicion BT</label>
+                <label>Facturacion Normal</label>
+
+                <label>Cargo por Factor de Potencia</label>
+                <label>Bonificacion por Factor de Potencia</label>
+
+                <label>Facturacion Neta</label>
+                <label>IVA #ponemos de cuanto es el IVA </label>
+            </div>
+            <div class="total">
+                    <label>$ #PONER COSTO AQUI</label>
+                    <label>$ #PONER COSTO AQUI</label>
+                    <label>$ #PONER COSTO AQUI</label>
+                    <label>$ #PONER COSTO AQUI</label>
+                    <label>$ #PONER COSTO AQUI</label>
+                    <label>$ #PONER COSTO AQUI</label>
+                    <label>$ #PONER COSTO AQUI</label>
+
+                    <label>#poner Resultado</label>
+                    <label>#poner Resultado</label>
+                    <label>#poner Resultado</label>
+                    <label>#poner Resultado</label>
+                    <label>#poner Resultado</label>
+                    <label>#poner Resultado</label>
+                    <label>#poner Resultado</label>
+
+                    <label>Total: #poner Resultado</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>                                                                    
